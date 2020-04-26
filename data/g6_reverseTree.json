@@ -1,0 +1,146 @@
+{
+    "nodes": [
+      {
+        "id": "ops_event_web",
+        "label": "ops_event_web"
+      },
+      {
+        "id": "vm1",
+        "label": "vm1"
+      },
+      {
+        "id": "vm2",
+        "label": "vm2"
+      },
+      {
+        "id": "vm3",
+        "label": "vm3"
+      },
+      {
+        "id": "vm4",
+        "label": "vm4"
+      },
+      {
+        "id": "vm5",
+        "label": "vm5"
+      },
+      {
+        "id": "vm6",
+        "label": "vm6"
+      },
+      {
+        "id": "物理机1",
+        "label": "物理机1"
+      },
+      {
+        "id": "物理机2",
+        "label": "物理机2"
+      },
+      {
+        "id": "物理机3",
+        "label": "物理机3"
+      },
+      {
+        "id": "物理机4",
+        "label": "物理机4"
+      },
+      {
+        "id": "机柜1",
+        "label": "机柜1"
+      },
+      {
+        "id": "机柜2",
+        "label": "机柜2"
+      },
+      {
+        "id": "机柜3",
+        "label": "机柜3"
+      },
+      {
+        "id": "神舟路",
+        "label": "神舟路"
+      },
+      {
+        "id": "华新园",
+        "label": "华新园"
+      }
+    ],
+    "edges": [
+      {
+        "source": "ops_event_web",
+        "target": "vm1"
+      },
+      {
+        "source": "ops_event_web",
+        "target": "vm2"
+      },
+      {
+        "source": "ops_event_web",
+        "target": "vm3"
+      },
+      {
+        "source": "ops_event_web",
+        "target": "vm4"
+      },
+      {
+        "source": "ops_event_web",
+        "target": "vm5"
+      },
+      {
+        "source": "ops_event_web",
+        "target": "vm6"
+      },
+      {
+        "source": "vm1",
+        "target": "物理机1"
+      },
+      {
+        "source": "vm2",
+        "target": "物理机1"
+      },
+      {
+        "source": "vm3",
+        "target": "物理机1"
+      },
+      {
+        "source": "vm4",
+        "target": "物理机2"
+      },
+      {
+        "source": "vm5",
+        "target": "物理机3"
+      },
+      {
+        "source": "vm6",
+        "target": "物理机4"
+      },
+      {
+        "source": "物理机1",
+        "target": "机柜1"
+      },
+      {
+        "source": "物理机2",
+        "target": "机柜1"
+      },
+      {
+        "source": "物理机3",
+        "target": "机柜2"
+      },
+      {
+        "source": "物理机4",
+        "target": "机柜3"
+      },
+      {
+        "source": "机柜1",
+        "target": "神舟路"
+      },
+      {
+        "source": "机柜2",
+        "target": "神舟路"
+      },
+      {
+        "source": "机柜3",
+        "target": "华新园"
+      }
+    ]
+  }

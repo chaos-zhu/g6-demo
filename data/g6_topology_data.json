@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "id": "ops_event_web",
+            "label": "ops_event_web",
+            "size": 60
+        },
+        {
+            "id": "ops_web_demo",
+            "label": "ops_web_demo",
+            "size": 60
+        },
+        {
+            "id": "ops_metis",
+            "label": "ops_metis",
+            "size": 60
+        },
+        {
+            "id": "msg_template_server",
+            "label": "msg_template_server",
+            "size": 60
+        },
+        {
+            "id": "java_publish_demo",
+            "label": "java_publish_demo",
+            "size": 60
+        },
+        {
+            "id": "ops_monitor_web",
+            "label": "ops_monitor_web",
+            "size": 60
+        },
+        {
+            "id": "ops_publish_web",
+            "label": "ops_publish_web",
+            "size": 60
+        },
+        {
+            "id": "cmdb_web_server",
+            "label": "cmdb_web_server",
+            "size": 60
+        }
+    ],
+    "edges": [
+        {
+            "source": "ops_event_web",
+            "target": "ops_web_demo"
+        },
+        {
+            "source": "ops_event_web",
+            "target": "ops_web_demo"
+        },
+        {
+            "source": "ops_event_web",
+            "target": "ops_publish_web"
+        },
+        {
+            "source": "ops_publish_web",
+            "target": "cmdb_web_server"
+        },
+        {
+            "source": "ops_event_web",
+            "target": "ops_metis"
+        },
+        {
+            "source": "msg_template_server",
+            "target": "ops_event_web"
+        },
+        {
+            "source": "msg_template_server",
+            "target": "ops_web_demo"
+        },
+        {
+            "source": "java_publish_demo",
+            "target": "ops_web_demo"
+        },
+        {
+            "source": "ops_monitor_web",
+            "target": "ops_web_demo"
+        }
+    ]
+}

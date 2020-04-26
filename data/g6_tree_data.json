@@ -1,0 +1,49 @@
+{
+    "id": "神州路",
+    "children": [
+      {
+        "id": "机柜A",
+        "children": [
+          { "id": "物理机a" },
+          { "id": "物理机b" },
+          { "id": "物理机c" }
+        ]
+      },
+      {
+        "id": "机柜B",
+        "children": [
+          {
+            "id": "物理机a",
+            "children": [
+              { "id": "VM1",
+                "children": [
+                  { "id": "ops_event_web" },
+                  { "id": "ops_event_server" }
+                ]
+              },
+              { "id": "VM2",
+                "children": [
+                  { "id": "msg_template_server" },
+                  { "id": "java_publish_demo" }
+                ]}
+            ]
+          },
+          {
+            "id": "物理机b",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "机柜C",
+        "children": [
+          { "id": "物理机a" },
+          { "id": "物理机b" },
+          { "id": "物理机c" },
+          { "id": "物理机d" },
+          { "id": "物理机e" }
+        ]
+      }
+    ]
+  }
+  
